@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-void doNothing(int&) // Don't worry about what & is for now, we're just using it to trick the compiler into thinking variable x is used
-{
-}
+// Don't worry about what & is for now, we're just using it to trick the compiler into thinking variable x is used
+void doNothing(int&) {}
 
 int main() {
     int uninitalized;
